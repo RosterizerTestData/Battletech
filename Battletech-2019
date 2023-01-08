@@ -1,0 +1,3446 @@
+{
+  "name": "Battletech 2019",
+  "revision": "0.1.5",
+  "game": "Battletech",
+  "genre": "sci-fi",
+  "publisher": "Catalyst Game Labs",
+  "url": "https://www.catalystgamelabs.com/brands/battletech",
+  "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution.",
+  "wip": true,
+  "manifest": {
+    "assetTaxonomy": {
+      "IS Air Support": {},
+      "IS Assault Mechs": {
+        "allowed": {
+          "classifications": []
+        },
+        "templateClass": "Unit Stats"
+      },
+      "IS Ground Support": {},
+      "IS Heavy Mechs": {
+        "templateClass": "Unit Stats"
+      },
+      "IS Light Mechs": {
+        "keywords": {
+          "Source": []
+        },
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "value": null
+          }
+        },
+        "templateClass": "Unit Stats"
+      },
+      "IS Medium Mechs": {
+        "stats": {
+          "Pts": {
+            "statType": "numeric",
+            "value": null
+          }
+        },
+        "templateClass": "Unit Stats"
+      },
+      "IS Space": {},
+      "Pilot": {
+        "stats": {
+          "Gunnery skill": {
+            "statType": "numeric",
+            "value": 3
+          },
+          "Piloting skill": {
+            "value": 5
+          }
+        }
+      },
+      "Unit Stats": {
+        "allowed": {
+          "items": [
+            "Pilot§MechWarrior"
+          ]
+        },
+        "aspects": {
+          "Rename": true,
+          "Type": "game piece"
+        },
+        "keywords": {
+          "Source": []
+        },
+        "stats": {
+          "Armor": {
+            "statOrder": 6,
+            "statType": "numeric",
+            "value": 0
+          },
+          "BV": {
+            "statOrder": 10,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0
+          },
+          "Engine": {
+            "ranks": {
+              "Fusion": {
+                "order": 0
+              },
+              "Light": {
+                "order": 1
+              },
+              "XL": {
+                "order": 2
+              },
+              "XXL": {
+                "order": 3
+              }
+            },
+            "statOrder": 7,
+            "statType": "rank"
+          },
+          "Heat Sinks": {
+            "statOrder": 5,
+            "statType": "term",
+            "value": ""
+          },
+          "Jump": {
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 0
+          },
+          "Pts": {
+            "statOrder": 11,
+            "statType": "numeric",
+            "tracked": true,
+            "value": null
+          },
+          "Running": {
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 0
+          },
+          "Source": {
+            "ranks": {
+              "Wave 1": {
+                "format": "Wave 1",
+                "order": 0
+              },
+              "Wave 2": {
+                "format": "Wave 2",
+                "order": 1
+              }
+            },
+            "statOrder": 9,
+            "statType": "rank",
+            "value": "0"
+          },
+          "TAG ammo LRM 10": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "hidden"
+          },
+          "TAG ammo LRM 15": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "hidden"
+          },
+          "TAG ammo LRM 20": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "hidden"
+          },
+          "TAG ammo LRM 5": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": null,
+            "visibility": "hidden"
+          },
+          "Tech Base": {
+            "ranks": {
+              "Clan": {
+                "format": "Clan",
+                "order": 1
+              },
+              "IS": {
+                "format": "IS",
+                "order": 0
+              }
+            },
+            "statOrder": 8,
+            "statType": "rank",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statOrder": 4,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0
+          },
+          "Walking": {
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": 0
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      "IS Air Support§Karnov UR Transport (3055 Upgrade)": {
+        "stats": {
+          "Armor": {
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 26
+          },
+          "BV": {
+            "statOrder": 5,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 152
+          },
+          "Cruising": {
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": 10
+          },
+          "Flank": {
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 15
+          },
+          "Tonnage": {
+            "statOrder": 4,
+            "statType": "numeric",
+            "value": 30
+          }
+        },
+        "text": "- Infantry Bay (7 tons)\n- 2 Machine gun"
+      },
+      "IS Air Support§Kestrel VTOL": {
+        "stats": {
+          "Armor": {
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 24
+          },
+          "BV": {
+            "statOrder": 5,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 155
+          },
+          "Cruising": {
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": 12
+          },
+          "Flank": {
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 18
+          },
+          "Tonnage": {
+            "statOrder": 4,
+            "statType": "numeric",
+            "value": 25
+          }
+        },
+        "text": "- Infantry Bay (3.5 tons)\n- 2 Machine gun"
+      },
+      "IS Air Support§Lightning": {},
+      "IS Air Support§Sabre": {},
+      "IS Assault Mechs§Atlas AS7-D": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 304
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1897
+          },
+          "Heat Sinks": {
+            "value": "20 Single"
+          },
+          "Pts": {
+            "value": 52
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 100
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- 2 Medium laser\n- LRM 20\n- SRM 6\n- AC/20\n- 2 Medium laser Rear"
+      },
+      "IS Assault Mechs§Atlas AS7-K": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 304
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 2175
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "XL"
+          },
+          "Heat Sinks": {
+            "value": "20 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 44
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 100
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- 2 ER Large laser\n- LRM 20\n- SRM 6\n- Gauss rifle\n- 2 Medium pulse laser Rear\n- AMS"
+      },
+      "IS Assault Mechs§Atlas AS7-S3": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 304
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 2378
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "Light"
+          },
+          "Heat Sinks": {
+            "value": "14 Double"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 54
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 100
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- 2 PPC\n- LRM 15 Artemis \n- 3 Small laser\n- Gauss rifle\n- ECM\n- AMS"
+      },
+      "IS Assault Mechs§Awesome AWS-8Q": {
+        "assets": {
+          "traits": []
+        },
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 240
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1605
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "28 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 39
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 80
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- Small laser\n- 3 PPC"
+      },
+      "IS Assault Mechs§Awesome AWS-9M": {
+        "assets": {
+          "traits": []
+        },
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 247
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1812
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "20 Double"
+          },
+          "Pts": {
+            "value": 41
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 80
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- Small pulse laser\n- 3 ER PPC\n- 2 Streak SRM 2\n- Medium pulse laser"
+      },
+      "IS Assault Mechs§BattleMaster BLR-1G": {
+        "assets": {
+          "traits": []
+        },
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 224
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1519
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "18 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 40
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 85
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- PPC\n- SRM 6\n- 4 Medium laser\n- 2 Medium laser Rear\n- 2 Machine gun"
+      },
+      "IS Assault Mechs§BattleMaster BLR-3M": {
+        "assets": {
+          "traits": []
+        },
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 232
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1679
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "18 Double"
+          },
+          "Pts": {
+            "value": 42
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 85
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- ER PPC\n- SRM 6\n- 4 Medium laser\n- 2 Medium laser Rear\n- Machine gun"
+      },
+      "IS Assault Mechs§Highlander HGN-732": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 277
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 2227
+          },
+          "Heat Sinks": {
+            "value": "12 Single"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 3
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 48
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 90
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- SRM 6\n- Gauss rifle\n- LRM20\n- 2 Medium laser"
+      },
+      "IS Assault Mechs§Highlander HGN-733": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 275
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1801
+          },
+          "Heat Sinks": {
+            "value": "13 Single"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 3
+          },
+          "Pts": {
+            "value": 44
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 90
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- SRM 6\n- AC/10\n- LRM20\n- 2 Medium laser"
+      },
+      "IS Assault Mechs§Highlander HGN-734": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 279
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 2214
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "Light"
+          },
+          "Heat Sinks": {
+            "value": "14 Double"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 3
+          },
+          "Pts": {
+            "value": 43
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 90
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- 2 Streak SRM 6\n- LB 20-X AC\n- ER Large laser\n- 2 ER Medium laser\n- Medium pulse laser"
+      },
+      "IS Assault Mechs§King Crab KGC-000": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 286
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1906
+          },
+          "Heat Sinks": {
+            "value": "15 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 46
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 100
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- 2 AC/20\n- LRM 15\n- Large laser"
+      },
+      "IS Assault Mechs§King Crab KGC-0000": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 272
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1810
+          },
+          "Heat Sinks": {
+            "value": "15 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 44
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 100
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- 2 AC/20\n- LRM 15\n- Large laser"
+      },
+      "IS Assault Mechs§King Crab KGC-005r": {
+        "rules": {
+          "C3 BV .2": {
+            "evals": [
+              {
+                "equation": {
+                  "operator": "T*O",
+                  "value": 0.2
+                },
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "BV",
+                    "processed",
+                    "numeric",
+                    "current"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "pass",
+            "order": 5
+          },
+          "On the Network": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "BV",
+                    "value"
+                  ]
+                ],
+                "value": [
+                  "{self}",
+                  "rules",
+                  "C3 BV .2",
+                  "evals",
+                  "0",
+                  "result",
+                  "integer"
+                ]
+              },
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "designation"
+                  ]
+                ],
+                "value": "networked"
+              }
+            ],
+            "evals": [
+              {
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "On the network?",
+                    "value"
+                  ]
+                ],
+                "value": "1"
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "pass",
+            "order": 6
+          }
+        },
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 288
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 2335
+          },
+          "Heat Sinks": {
+            "value": "12 Double"
+          },
+          "On the network?": {
+            "dynamic": true,
+            "ranks": {
+              "0": {
+                "order": 0
+              },
+              "1": {
+                "order": 1
+              }
+            },
+            "statType": "rank",
+            "visibility": "active",
+            "value": "0"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 53
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 100
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- 2 LB 20-X AC\n- Heavy PPC\n- Streak SRM 4\n- C3 slave"
+      },
+      "IS Assault Mechs§King Crab KGC-007": {
+        "rules": {
+          "C3 BV .2": {
+            "evals": [
+              {
+                "equation": {
+                  "operator": "T*O",
+                  "value": 0.2
+                },
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "BV",
+                    "processed",
+                    "numeric",
+                    "current"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "pass",
+            "order": 5
+          },
+          "On the Network": {
+            "actions": [
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "BV",
+                    "value"
+                  ]
+                ],
+                "value": [
+                  "{self}",
+                  "rules",
+                  "C3 BV .2",
+                  "evals",
+                  "0",
+                  "result",
+                  "integer"
+                ]
+              },
+              {
+                "actionType": "modify",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "designation"
+                  ]
+                ],
+                "value": "networked"
+              }
+            ],
+            "evals": [
+              {
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "On the network?",
+                    "value"
+                  ]
+                ],
+                "value": "1"
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "pass",
+            "order": 6
+          }
+        },
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 305
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 2523
+          },
+          "Heat Sinks": {
+            "value": "11 Double"
+          },
+          "On the network?": {
+            "dynamic": true,
+            "ranks": {
+              "0": {
+                "order": 0
+              },
+              "1": {
+                "order": 1
+              }
+            },
+            "statType": "rank",
+            "visibility": "active",
+            "value": "0"
+          },
+          "Pts": {
+            "statType": "numeric"
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 100
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- 2 R.AC/5\n- 2 Light PPC\n- Plasma rifle\n- Streak SRM 6"
+      },
+      "IS Assault Mechs§Marauder II MAD-4A": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 304
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 2073
+          },
+          "Heat Sinks": {
+            "value": "29 Single"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 3
+          },
+          "Pts": {
+            "value": 47
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 100
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- 2 PPC\n- 2 Medium laser\n- Large laser"
+      },
+      "IS Assault Mechs§Marauder II MAD-5A": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 304
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 2058
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "XL"
+          },
+          "Heat Sinks": {
+            "value": "29 Single"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 3
+          },
+          "Pts": {
+            "value": 43
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 100
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- 2 ER PPC\n- 2 Medium laser\n- LB 10-X AC"
+      },
+      "IS Assault Mechs§Marauder II MAD-5B": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 304
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 2589
+          },
+          "Engine": {},
+          "Heat Sinks": {
+            "value": "16 Double"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 3
+          },
+          "Pts": {
+            "value": 51
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 100
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- 2 ER PPC\n- 2 Medium laser\n- Gauss rifle"
+      },
+      "IS Assault Mechs§Victor VTR-11D": {
+        "stats": {
+          "Armor": {
+            "value": 232
+          },
+          "BV": {
+            "value": 2021
+          },
+          "Heat Sinks": {
+            "value": "15 Double"
+          },
+          "Jump": {
+            "value": 4
+          },
+          "Pts": {
+            "value": 44
+          },
+          "Running": {
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "value": 80
+          },
+          "Walking": {
+            "value": 4
+          }
+        },
+        "text": "- 2 ER Large laser\n- R.AC/5\n- Streak SRM 4"
+      },
+      "IS Assault Mechs§Victor VTR-9B": {
+        "stats": {
+          "Armor": {
+            "value": 184
+          },
+          "BV": {
+            "value": 1378
+          },
+          "Heat Sinks": {
+            "value": "15 Single"
+          },
+          "Jump": {
+            "value": 4
+          },
+          "Pts": {
+            "value": 36
+          },
+          "Running": {
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "value": 80
+          },
+          "Walking": {
+            "value": 4
+          }
+        },
+        "text": "- 2 Medium laser\n- AC/20\n- SRM 4"
+      },
+      "IS Assault Mechs§Victor VTR-9K": {
+        "stats": {
+          "Armor": {
+            "value": 200
+          },
+          "BV": {
+            "value": 1717
+          },
+          "Heat Sinks": {
+            "value": "15 Single"
+          },
+          "Jump": {
+            "value": 4
+          },
+          "Pts": {
+            "value": 40
+          },
+          "Running": {
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "value": 80
+          },
+          "Walking": {
+            "value": 4
+          }
+        },
+        "text": "- 2 Medium pulse laser\n- Gauss rifle\n- SRM 4"
+      },
+      "IS Ground Support§Badger Tracked Transport": {
+        "stats": {
+          "Armor": {
+            "statOrder": 4,
+            "statType": "numeric",
+            "value": 88
+          },
+          "BV": {
+            "statOrder": 5,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 549
+          },
+          "Cruising": {
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": 6
+          },
+          "Flank": {
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 9
+          },
+          "Tonnage": {
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 30
+          }
+        },
+        "text": "- SRM 2\n- 3 Medium laser\n- Infantry Bay (4 tons)"
+      },
+      "IS Ground Support§Foot Infantry Platoon": {
+        "stats": {
+          "BV": {
+            "statOrder": 4,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 82
+          },
+          "Movement MP": {
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 1
+          },
+          "Tonnage": {
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 3
+          },
+          "Troopers": {
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": 28
+          }
+        }
+      },
+      "IS Ground Support§IS Standard Battle Armor 4 (Laser)": {
+        "stats": {
+          "BV": {
+            "statOrder": 5,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 231
+          },
+          "Ground MP": {
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 1
+          },
+          "HP": {
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": 10
+          },
+          "Jump MP": {
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 3
+          },
+          "Squad Size": {
+            "statOrder": 4,
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- Small laser D3/S1/M2/L3\n- Battle claw"
+      },
+      "IS Ground Support§Manticore Heavy Tank (3055 Upgrade)": {
+        "stats": {
+          "Armor": {
+            "statOrder": 4,
+            "statType": "numeric",
+            "value": 179
+          },
+          "BV": {
+            "statOrder": 5,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 957
+          },
+          "Cruising": {
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": 4
+          },
+          "Flank": {
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 6
+          },
+          "Tonnage": {
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 60
+          }
+        },
+        "text": "- Streak SRM 2\n- Large pulse laser\n- LRM 10 Artemis\n- SRM 6 Artemis"
+      },
+      "IS Ground Support§Minotaur": {
+        "stats": {
+          "Armor": {
+            "statOrder": 4,
+            "statType": "numeric",
+            "value": 36
+          },
+          "BV": {
+            "statOrder": 6,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 424
+          },
+          "Jump": {
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 3
+          },
+          "Run": {
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 5
+          },
+          "Tonnage": {
+            "statOrder": 5,
+            "statType": "numeric",
+            "value": 9
+          },
+          "Walk": {
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": 3
+          }
+        },
+        "text": "- 2 ER Medium laser"
+      },
+      "IS Ground Support§ROC": {
+        "stats": {
+          "Armor": {
+            "statOrder": 4,
+            "statType": "numeric",
+            "value": 29
+          },
+          "BV": {
+            "statOrder": 6,
+            "statType": "numeric",
+            "value": 336
+          },
+          "Jump": {
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 5
+          },
+          "Run": {
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 8
+          },
+          "Tonnage": {
+            "statOrder": 5,
+            "statType": "numeric",
+            "value": 7
+          },
+          "Walk": {
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": 5
+          }
+        },
+        "text": "- ER Medium laser"
+      },
+      "IS Ground Support§Tag Spotter Infantry Platoon": {
+        "stats": {
+          "BV": {
+            "statOrder": 4,
+            "statType": "numeric",
+            "value": 66
+          },
+          "Movement MP": {
+            "statOrder": 2,
+            "statType": "numeric",
+            "value": 1
+          },
+          "TAG": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": 1
+          },
+          "Tonnage": {
+            "statOrder": 3,
+            "statType": "numeric",
+            "value": 3
+          },
+          "Troopers": {
+            "statOrder": 1,
+            "statType": "numeric",
+            "value": 28
+          }
+        },
+        "text": "- TAG"
+      },
+      "IS Ground Support§test": {},
+      "IS Heavy Mechs§Black Knight BL-12-KNT": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 208
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1840
+          },
+          "Heat Sinks": {
+            "value": "16 Double"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 40
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 75
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- 4 ER Medium laser\n- ER PPC\n- 2 Large laser\n- Targeting computer "
+      },
+      "IS Heavy Mechs§Black Knight BL-6-KNT": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 208
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1551
+          },
+          "Heat Sinks": {
+            "value": "20 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 39
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 75
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- 4 Medium laser\n- PPC\n- 2 Large laser\n- Small laser\n- Active probe (Beagle)"
+      },
+      "IS Heavy Mechs§Black Knight BL-7-KNT": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 176
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1443
+          },
+          "Heat Sinks": {
+            "value": "20 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 34
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 75
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- 4 Medium laser\n- PPC\n- 2 Large laser\n- Small laser"
+      },
+      "IS Heavy Mechs§Catapult CPLT-C1": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 160
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1399
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "14 Single"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 4
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 32
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 65
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- 2 LRM 15\n- 4 Medium laser"
+      },
+      "IS Heavy Mechs§Catapult CPLT-K2": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 176
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1319
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "20 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 32
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 65
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- 2 PPC\n- 2 Medium laser\n- 2 Machine gun"
+      },
+      "IS Heavy Mechs§Catapult CPLT-K2K": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 176
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1716
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "20 Double"
+          },
+          "Pts": {
+            "value": 37
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 8
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 65
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 5
+          }
+        },
+        "text": "- 2 ER PPC\n- 2 ER Medium laser"
+      },
+      "IS Heavy Mechs§Crusader CRD-3R": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 192
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1317
+          },
+          "Heat Sinks": {
+            "value": "10 Single"
+          },
+          "Pts": {
+            "value": 32
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 65
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- 2 SRM 6\n- 2 LRM 15\n- 2 Medium laser\n- 2 Machine gun"
+      },
+      "IS Heavy Mechs§Crusader CRD-5M": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 192
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1408
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "XL"
+          },
+          "Heat Sinks": {
+            "value": "13 Double"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 4
+          },
+          "Pts": {
+            "value": 35
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 65
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- 2 Streak SRM 2\n- 2 LRM 15\n- 2 Medium laser\n- Machine gun\n- Flamer\n- AMS"
+      },
+      "IS Heavy Mechs§Exterminator EXT-4A": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 157
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1372
+          },
+          "Engine": {},
+          "Heat Sinks": {
+            "value": "10 Single"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 35
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 8
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 65
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 5
+          }
+        },
+        "text": "- 4 Medium lasers\n- LRM 10\n- AMS\n- Machine gun\n- Small laser"
+      },
+      "IS Heavy Mechs§Exterminator EXT-4D": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 168
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1385
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "XL"
+          },
+          "Heat Sinks": {
+            "value": "10 Double"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 37
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 9
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 65
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 6
+          }
+        },
+        "text": "- 4 Medium lasers\n- LRM 10\n- AMS\n- Small laser"
+      },
+      "IS Heavy Mechs§Orion ON1-K": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 231
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1429
+          },
+          "Heat Sinks": {
+            "value": "10 Single"
+          },
+          "Pts": {
+            "value": 39
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 75
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- 2 Medium laser\n- LRM 15\n- SRM 4\n- AC/10"
+      },
+      "IS Heavy Mechs§Orion ON1-M": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 224
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1414
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "XL"
+          },
+          "Heat Sinks": {
+            "value": "11 Double"
+          },
+          "Pts": {
+            "value": 36
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 75
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- 2 Medium laser\n- LRM 20\n- SRM 4\n- LB 10-X AC\n- Narc"
+      },
+      "IS Heavy Mechs§Orion ON1-MB": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 224
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1472
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "XL"
+          },
+          "Heat Sinks": {
+            "value": "11 Double"
+          },
+          "Pts": {
+            "value": 36
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 75
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- 2 ER Medium laser\n- LRM 20\n- SRM 4\n- Light Gauss rifle\n- Narc"
+      },
+      "IS Heavy Mechs§Thunderbolt TDR-5S": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 208
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1335
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "15 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 36
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 65
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- LRM 15\n- SRM 2\n- Large laser\n- 3 Medium laser\n- 2 Machine gun"
+      },
+      "IS Heavy Mechs§Thunderbolt TDR-5SE": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 208
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1414
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "17 Single"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 4
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 35
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 65
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- LRM 10\n- Large laser\n- 3 Medium laser"
+      },
+      "IS Heavy Mechs§Thunderbolt TDR-7M": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 206
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1495
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "15 Double"
+          },
+          "Jump": {},
+          "Pts": {
+            "value": 39
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 65
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- LRM 15\n- ER Large laser\n- 3 Medium laser\n- 2 Machine gun"
+      },
+      "IS Heavy Mechs§Thunderbolt TDR-9SE": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 211
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1439
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "15 Double"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 4
+          },
+          "Pts": {
+            "value": 37
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 65
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 4
+          }
+        },
+        "text": "- LRM 10\n- Large pulse laser\n- 3 Medium laser"
+      },
+      "IS Light Mechs§Commando COM-2D": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 64
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 541
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "10 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 17
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 9
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 25
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 6
+          }
+        },
+        "text": "- SRM 6\n- SRM 4\n- Medium laser"
+      },
+      "IS Light Mechs§Commando COM-2Dr": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 64
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 563
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "10 Single"
+          },
+          "Pts": {
+            "statType": "numeric"
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 9
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 25
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 6
+          }
+        },
+        "text": "- MML 7\n- ER Medium laser"
+      },
+      "IS Light Mechs§Commando COM-3A": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 48
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 540
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "10 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 17
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 9
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 25
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 6
+          }
+        },
+        "text": "- 2 SRM 6\n- Medium laser\n- Flamer"
+      },
+      "IS Light Mechs§Locust LCT-1E": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 64
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 553
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "10 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 19
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 12
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 20
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 8
+          }
+        },
+        "text": "- 2 Small laser\n- 2 Medium laser"
+      },
+      "IS Light Mechs§Locust LCT-1V": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 64
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 432
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "10 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 18
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 12
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 20
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 8
+          }
+        },
+        "text": "- Medium laser\n- 2 Machine gun"
+      },
+      "IS Light Mechs§Locust LCT-3D": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 45
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 436
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "10 Single"
+          },
+          "Pts": {
+            "value": 16
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 12
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 20
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 8
+          }
+        },
+        "text": "- 2 LRM 5"
+      },
+      "IS Light Mechs§Locust LCT-3S": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 45
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 483
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "10 Single"
+          },
+          "Pts": {
+            "value": 20
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 12
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 20
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 8
+          }
+        },
+        "text": "- Medium laser\n- 2 Streak SRM 2"
+      },
+      "IS Light Mechs§Mercury MCY-104": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 69
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 683
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "XL"
+          },
+          "Heat Sinks": {
+            "value": "10 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 29
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 12
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 20
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 8
+          }
+        },
+        "text": "- 2 ER Medium laser\n- ER Small laser\n- TAG\n- Improved C3 computer\n- MASC 16"
+      },
+      "IS Light Mechs§Mercury MCY-98": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 64
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 553
+          },
+          "Heat Sinks": {
+            "value": "10 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 19
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 12
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 20
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 8
+          }
+        },
+        "text": "- 2 Medium laser\n- 2 Small laser"
+      },
+      "IS Light Mechs§Mercury MCY-99": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 53
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 586
+          },
+          "Heat Sinks": {
+            "value": "10 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 22
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 12
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 20
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 8
+          }
+        },
+        "text": "- 2 Medium laser\n- 2 Small laser\n- MASC 16"
+      },
+      "IS Light Mechs§Raven RVN-1X": {
+        "stats": {
+          "Armor": {
+            "value": 64
+          },
+          "BV": {
+            "value": 639
+          },
+          "Heat Sinks": {
+            "value": "12 Single"
+          },
+          "Pts": {
+            "value": 23
+          },
+          "Running": {
+            "value": 8
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "value": 35
+          },
+          "Walking": {
+            "value": 5
+          }
+        },
+        "text": "- 2 Medium laser\n- EW equipment\n- SRM 6"
+      },
+      "IS Light Mechs§Raven RVN-3L": {
+        "stats": {
+          "Armor": {
+            "value": 80
+          },
+          "BV": {
+            "value": 708
+          },
+          "Heat Sinks": {
+            "value": "11 Single"
+          },
+          "Pts": {
+            "value": 24
+          },
+          "Running": {
+            "value": 9
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "TAG": {
+            "statType": "numeric",
+            "tracked": true,
+            "value": 1,
+            "visibility": "hidden"
+          },
+          "Tonnage": {
+            "value": 35
+          },
+          "Walking": {
+            "value": 6
+          }
+        },
+        "text": "- Narc\n- 2 Medium laser\n- ECM suite (Guardian)\n- SRM 6\n- TAG\n- Active probe (Beagle)"
+      },
+      "IS Light Mechs§Raven RVN-3M": {
+        "rules": {
+          "Is there TAG?": {
+            "actions": [
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "TAG ammo LRM 15",
+                    "visibility"
+                  ]
+                ],
+                "value": "active"
+              },
+              {
+                "actionType": "set",
+                "iterations": 1,
+                "paths": [
+                  [
+                    "{self}",
+                    "stats",
+                    "TAG ammo LRM 15",
+                    "dynamic"
+                  ]
+                ],
+                "value": true
+              }
+            ],
+            "evals": [
+              {
+                "min": 1,
+                "not": false,
+                "operator": "AND",
+                "paths": [
+                  [
+                    "{roster}",
+                    "tracked",
+                    "TAG"
+                  ]
+                ]
+              }
+            ],
+            "evaluate": "OR",
+            "failState": "pass",
+            "order": 5
+          }
+        },
+        "stats": {
+          "Armor": {
+            "value": 80
+          },
+          "BV": {
+            "value": 659
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "XL"
+          },
+          "Heat Sinks": {
+            "value": "10 Single"
+          },
+          "Pts": {
+            "value": 20
+          },
+          "Running": {
+            "value": 9
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "TAG ammo LRM 15": {
+            "increment": {
+              "value": 1
+            },
+            "max": 2,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0,
+            "visibility": "hidden"
+          },
+          "Tonnage": {
+            "value": 35
+          },
+          "Walking": {
+            "value": 6
+          }
+        },
+        "text": "- Narc\n- 2 Small laser\n- Small pulse laser\n- LRM 15"
+      },
+      "IS Medium Mechs§Enforcer ENF-4R": {
+        "stats": {
+          "Armor": {
+            "value": 144
+          },
+          "BV": {
+            "value": 1032
+          },
+          "Heat Sinks": {
+            "value": "12 Single"
+          },
+          "Jump": {
+            "value": 4
+          },
+          "Pts": {
+            "value": 25
+          },
+          "Running": {
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "value": 50
+          },
+          "Walking": {
+            "value": 4
+          }
+        },
+        "text": "- Large laser\n- AC/10\n- Small laser"
+      },
+      "IS Medium Mechs§Enforcer ENF-5D": {
+        "stats": {
+          "Armor": {
+            "value": 161
+          },
+          "BV": {
+            "value": 1308
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "XL"
+          },
+          "Heat Sinks": {
+            "value": "12 Single"
+          },
+          "Jump": {
+            "value": 5
+          },
+          "Pts": {
+            "value": 27
+          },
+          "Running": {
+            "value": 8
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "value": 50
+          },
+          "Walking": {
+            "value": 5
+          }
+        },
+        "text": "- ER Large laser\n- LB 10-X AC\n- Small laser"
+      },
+      "IS Medium Mechs§Hunchback HBK-4G": {
+        "stats": {
+          "Armor": {
+            "value": 160
+          },
+          "BV": {
+            "value": 1041
+          },
+          "Heat Sinks": {
+            "value": "13 Single"
+          },
+          "Pts": {
+            "value": 28
+          },
+          "Running": {
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "value": 50
+          },
+          "Walking": {
+            "value": 4
+          }
+        },
+        "text": "- 2 Medium laser\n- AC/20\n- Small laser"
+      },
+      "IS Medium Mechs§Hunchback HBK-4H": {
+        "stats": {
+          "Armor": {
+            "value": 160
+          },
+          "BV": {
+            "value": 1067
+          },
+          "Heat Sinks": {
+            "value": "13 Single"
+          },
+          "Pts": {
+            "value": 28
+          },
+          "Running": {
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "value": 50
+          },
+          "Walking": {
+            "value": 4
+          }
+        },
+        "text": "- 4 Medium laser\n- AC/10\n- Small laser"
+      },
+      "IS Medium Mechs§Hunchback HBK-4P": {
+        "stats": {
+          "Armor": {
+            "value": 160
+          },
+          "BV": {
+            "value": 1138
+          },
+          "Heat Sinks": {
+            "value": "23 Single"
+          },
+          "Pts": {
+            "value": 31
+          },
+          "Running": {
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "value": 50
+          },
+          "Walking": {
+            "value": 4
+          }
+        },
+        "text": "- 8 Medium laser\n- Small laser"
+      },
+      "IS Medium Mechs§Hunchback HBK-5M": {
+        "stats": {
+          "Armor": {
+            "value": 160
+          },
+          "BV": {
+            "value": 1056
+          },
+          "Heat Sinks": {
+            "value": "13 Double"
+          },
+          "Pts": {
+            "value": 27
+          },
+          "Running": {
+            "value": 6
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "value": 50
+          },
+          "Walking": {
+            "value": 4
+          }
+        },
+        "text": "- 2 Medium laser\n- AC/20\n- Small pulse laser"
+      },
+      "IS Medium Mechs§Sentinel STN-3K": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 96
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 652
+          },
+          "Heat Sinks": {
+            "value": "10 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 19
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 9
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 40
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 6
+          }
+        },
+        "text": "- AC/5\n- Streak SRM 2\n- Small laser"
+      },
+      "IS Medium Mechs§Sentinel STN-3KA": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 128
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 847
+          },
+          "Heat Sinks": {
+            "value": "13 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 21
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 9
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 40
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 6
+          }
+        },
+        "text": "- Large laser\n- SRM 2\n- Small laser"
+      },
+      "IS Medium Mechs§Sentinel STN-3L": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 88
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 717
+          },
+          "Heat Sinks": {
+            "value": "10 Single"
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 23
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 9
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 2"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 40
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 6
+          }
+        },
+        "text": "- Ultra AC/5\n- Streak SRM 2\n- Small laser"
+      },
+      "IS Medium Mechs§Shadow Hawk SHD-2D2": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 104
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1049
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "12 Single"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 3
+          },
+          "Pts": {
+            "value": 29
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 8
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 55
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 5
+          }
+        },
+        "text": "- 2 Streak SRM 2\n- LRM 5\n- AC/5\n- Medium laser"
+      },
+      "IS Medium Mechs§Shadow Hawk SHD-2H": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 152
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1064
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "12 Single"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 3
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 30
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 8
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 55
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 5
+          }
+        },
+        "text": "- SRM 2\n- LRM 5\n- AC/5\n- Medium laser"
+      },
+      "IS Medium Mechs§Shadow Hawk SHD-7M": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 168
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1447
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "XL"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "10 Double"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 35
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 8
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 55
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 5
+          }
+        },
+        "text": "- Streak SRM 2\n- LRM 15\n- Light Gauss rifle\n- Medium laser"
+      },
+      "IS Medium Mechs§Wolverine WVR-6M": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 168
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1291
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "14 Single"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 32
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 8
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 55
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 5
+          }
+        },
+        "text": "- Large laser\n- SRM 6\n- 2 Medium laser"
+      },
+      "IS Medium Mechs§Wolverine WVR-6R": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 152
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1101
+          },
+          "Engine": {
+            "statType": "term",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "12 Single"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Pts": {
+            "statType": "numeric",
+            "value": 30
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 8
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 55
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 5
+          }
+        },
+        "text": "- AC/5\n- SRM 6\n- Medium laser"
+      },
+      "IS Medium Mechs§Wolverine WVR-7D": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 179
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1314
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "13 Single"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Pts": {
+            "value": 34
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 8
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 55
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 5
+          }
+        },
+        "text": "- Ultra AC/5\n- SRM 6\n- Medium pulse laser\n- MASC 10"
+      },
+      "IS Medium Mechs§Wolverine WVR-7K": {
+        "stats": {
+          "Armor": {
+            "statType": "numeric",
+            "value": 185
+          },
+          "BV": {
+            "statType": "numeric",
+            "value": 1331
+          },
+          "Engine": {
+            "statType": "rank",
+            "value": "Fusion"
+          },
+          "Heat Sinks": {
+            "statType": "term",
+            "value": "13 Double"
+          },
+          "Jump": {
+            "statType": "numeric",
+            "value": 5
+          },
+          "Pts": {
+            "value": 37
+          },
+          "Running": {
+            "statType": "numeric",
+            "value": 8
+          },
+          "Source": {
+            "statType": "rank",
+            "value": "Wave 1"
+          },
+          "Tech Base": {
+            "statType": "term",
+            "value": "IS"
+          },
+          "Tonnage": {
+            "statType": "numeric",
+            "value": 55
+          },
+          "Walking": {
+            "statType": "numeric",
+            "value": 5
+          }
+        },
+        "text": "- Large pulse laser\n- 2 SRM 6\n- Medium pulse laser\n- Small pulse laser"
+      },
+      "IS Space§test is s": {},
+      "Pilot§MechWarrior": {
+        "aspects": {
+          "Describe": true,
+          "Rename": true
+        },
+        "stats": {
+          "GS": {
+            "value": 3
+          },
+          "PS": {
+            "value": 4
+          }
+        }
+      },
+      "Roster§Roster": {
+        "allowed": {
+          "classifications": [
+            "IS Light Mechs",
+            "IS Medium Mechs",
+            "IS Heavy Mechs",
+            "IS Assault Mechs",
+            "IS Ground Support",
+            "IS Air Support",
+            "IS Space"
+          ]
+        },
+        "aspects": {
+          "Describe": true,
+          "Lock Qty": true,
+          "Rename": true,
+          "Type": "conceptual",
+          "Unique": true
+        },
+        "stats": {
+          "BV": {
+            "label": "Total BV",
+            "statOrder": 2,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0
+          },
+          "Pts": {
+            "label": "Total AS Points",
+            "statOrder": 3,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0
+          },
+          "Tonnage": {
+            "label": "Total Tonnage",
+            "statOrder": 1,
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0
+          }
+        }
+      }
+    },
+    "gameModes": {},
+    "theme": {}
+  }
+}
