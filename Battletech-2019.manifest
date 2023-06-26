@@ -1,6 +1,6 @@
 {
   "name": "Battletech 2019",
-  "revision": "0.1.5",
+  "revision": "0.1.6",
   "game": "Battletech",
   "genre": "sci-fi",
   "publisher": "Catalyst Game Labs",
@@ -854,8 +854,8 @@
               }
             },
             "statType": "rank",
-            "visibility": "active",
-            "value": "0"
+            "value": "0",
+            "visibility": "active"
           },
           "Pts": {
             "statType": "numeric",
@@ -985,8 +985,8 @@
               }
             },
             "statType": "rank",
-            "visibility": "active",
-            "value": "0"
+            "value": "0",
+            "visibility": "active"
           },
           "Pts": {
             "statType": "numeric"
