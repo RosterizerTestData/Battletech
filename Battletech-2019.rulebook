@@ -5,9 +5,9 @@
   "genre": "sci-fi",
   "publisher": "Catalyst Game Labs",
   "url": "https://www.catalystgamelabs.com/brands/battletech",
-  "notes": "This manifest is provided for the purposes of testing *Rosterizer* and is not intended for distribution.",
+  "notes": "This rulebook is provided for the purposes of testing *Rosterizer* and is not intended for distribution.",
   "wip": true,
-  "manifest": {
+  "rulebook": {
     "assetTaxonomy": {
       "IS Air Support": {},
       "IS Assault Mechs": {
